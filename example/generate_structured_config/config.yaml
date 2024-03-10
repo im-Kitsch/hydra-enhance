@@ -1,0 +1,9 @@
+a: 1
+b:
+  c: ???
+  d: 5
+
+
+# FIXME, change torch to foo.bar to remove dependency on torch
+t:
+  _target_: torch.nn.Linear

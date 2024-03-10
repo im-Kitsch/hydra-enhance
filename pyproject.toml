@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydra_enhance"  # Required
+version = "0.1.0"  # Required
+requires-python = ">=3.9"
+
+[project.urls]  # Optional
+Homepage = "https://github.com/im-Kitsch/Imitation_Learning"
+Repository = "https://github.com/im-Kitsch/Imitation_Learning"
+
+[tool.setuptools]
+packages = ["hydra_enhance"]
+
+[project.scripts]
+hydra-populate = "hydra_enhance.scripts.hydra_populate:main"
+hydra-yaml-cvt = "hydra_enhance.scripts.yaml_convert:main"

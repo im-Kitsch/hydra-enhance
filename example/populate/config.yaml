@@ -1,0 +1,9 @@
+cc: 1
+dd: 2
+ee:
+  a: 3
+  b: 4
+
+foo:
+  a: 3
+  _target_: hydra_enhance.foo.bar.Bar
